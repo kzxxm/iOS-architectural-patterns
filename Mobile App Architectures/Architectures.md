@@ -2,7 +2,7 @@ TODO:
 
 - [x] MVC
 - [x] MVP
-- [ ] MVVM
+- [x] MVVM
 - [ ] MVI
 - [ ] VIPER
 - [ ] Clean Architecture
