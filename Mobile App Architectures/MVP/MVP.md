@@ -41,6 +41,7 @@ The intermediary that contains ALL presentation logic
 - Acts as the single source of truth for what the View should display
 
 ## How MVP Works
+
 The communications flow in MVP:
 
 1. User interacts with the **View**
@@ -93,6 +94,7 @@ The communications flow in MVP:
 - May slow down development for simpler features
 
 ## Best Practices for MVP in iOS
+
 - **Keep Views Dumb:** Views should only handle UI rendering and user input delegation
 - **Use Display Models:** Create specific models for what the View displays
 - **Implement Protocols:** Define clear contracts between View and Presenter
@@ -101,15 +103,16 @@ The communications flow in MVP:
 - **Use Dependency Injection:** Inject Models into Presenters for better testability
 
 ## When to Use MVP
+
 MVP works well when:
 
-**Testability is a high priority** 
+**Testability is a high priority**:
 - You need extensive unit testing
-**Complex Presentation logic**
+**Complex Presentation logic:**
 - Your UI has lots of formatting and state management
-**Cross-platform development**
+**Cross-platform development:**
 - You want to reuse presentation logic
-**Team has separation discipline**
+**Team has separation discipline:**
 - Developers can maintain proper boundaries
-**Medium to large applications**
+**Medium to large applications:**
 - The overhead is justified by the benefits
