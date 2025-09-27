@@ -1,5 +1,3 @@
-TODO: 
-
 - [x] MVC
 - [x] MVP
 - [x] MVVM
