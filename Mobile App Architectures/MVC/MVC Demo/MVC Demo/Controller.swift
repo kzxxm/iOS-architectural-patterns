@@ -10,15 +10,19 @@ import SwiftUI
 
 // MARK: - Controller
 class TodoController: ObservableObject {
-    @Published var model = TodoModel()
+    @Published var todos: [TodoItem] = []
+    private var model = TodoModel()
+    private var cancellables = Set<AnyCancellable>()
     
-    var todos: [TodoItem] {
-        model.todos
+    init() {
+        model.$todos
+            .receive(on: DispatchQueue.main)
+            .assign(to: &$todos)
     }
     
     func addTodo(_ title: String) {
-        guard !title.isEmpty else { return }
-        model.addTodo(title)
+        guard !title.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else { return }
+        model.addTodo(title.trimmingCharacters(in: .whitespacesAndNewlines))
     }
     
     func toggleTodo(at index: Int) {
