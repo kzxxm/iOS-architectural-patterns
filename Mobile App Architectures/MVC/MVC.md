@@ -40,6 +40,7 @@ The intermediary that coordinates between Model and View
 - Contains the application's flow logic
 
 ## How MVC Works
+
 A typical MVC communication flow is as follows:
 
 1. User interacts with the **View**
