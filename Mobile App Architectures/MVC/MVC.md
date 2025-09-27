@@ -86,12 +86,14 @@ A typical MVC communication flow is as follows:
 - UI Testing becomes more complex with the additional layers
 
 ## Best Practices for MVC in iOS
+
 - **Keep Controllers Thin:** Move business logic to the Model and UI logic to the View
 - **Use Protocols:** Define interfaces between components to reduce coupling
 - **Leverage Notifications:** Use NotificationCenter or Combine for loose coupling
 - **Consider MVVM:** For SwiftUI, MVVM might be more natural than traditional MVC
 
 ## When to Use MVC
+
 MVC works well when:
 - You have a clear separation between data, presentation and logic
 - Your team is familiar with the pattern
