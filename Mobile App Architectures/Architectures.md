@@ -1,9 +1,10 @@
 TODO: 
 
 - [x] MVC
-- [ ] MVP
+- [x] MVP
 - [ ] MVVM
 - [ ] MVI
 - [ ] VIPER
 - [ ] Clean Architecture
 - [ ] TCA
+- [ ] Reactive Programming (RXSwift/Combine)
