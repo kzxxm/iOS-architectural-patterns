@@ -1,7 +1,7 @@
 - [x] MVC
 - [x] MVP
 - [x] MVVM
-- [ ] MVI
+- [x] MVI
 - [ ] VIPER
 - [ ] Clean Architecture
 - [ ] TCA
