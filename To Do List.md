@@ -1,1 +1,0 @@
-- [ ] Types of Data Persistence and the benefits/drawbacks + implementations
