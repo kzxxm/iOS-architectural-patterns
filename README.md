@@ -51,15 +51,18 @@ This repository contains **6 major iOS architecture patterns** with:
 |**[TCA](TCA/)**|🔴 Very High|Complex apps, time-travel debugging|[TCA Demo](TCA/TCA%20Demo)|
 |**[VIPER](VIPER/)**|⚫ Extreme|Enterprise apps, large teams|[VIPER Demo](VIPER/VIPER%20demo)|
 
-### 📱 Demo App Features
+[Cheat Sheet](Cheat%20Sheet.md)
 
-Each demo implements the same **Todo App** with more functionality through each iteration, some of which is listed below...
 
-- ➕ Add todos
-- ✅ Mark as complete/undo
-- 🔍 Search functionality
-- 🏷️ Priority levels
-- 💾 Data persistence
+## 📱 Demo App Features
+
+Each demo implements the a **Todo App** with more functionality through each iteration, some of which is listed below...
+
+➕   Add todos </br>
+✅   Mark as complete/undo </br>
+🔍   Search functionality </br>
+🏷️   Priority levels </br>
+💾   Data persistence </br>
 
 ## 🧭 Choosing the Right Architecture
 
