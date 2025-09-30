@@ -1,8 +1,0 @@
-- [x] MVC
-- [x] MVP
-- [x] MVVM
-- [x] MVI
-- [ ] VIPER
-- [ ] Clean Architecture
-- [ ] TCA
-- [ ] Reactive Programming (RXSwift/Combine)
